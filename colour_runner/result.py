@@ -1,7 +1,7 @@
 from unittest import result
 from unittest.util import strclass
 
-from blessings import Terminal
+from blessed import Terminal
 from pygments import formatters, highlight
 try:
     # Python 2
